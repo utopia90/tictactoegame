@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <link href="https://fonts.googleapis.com/css?family=Bungee+Shade&display=swap" rel="stylesheet">  
+     <link href="https://fonts.googleapis.com/css?family=Delius+Unicase&display=swap" rel="stylesheet">   
+     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet"> 
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script defer type="text/javascript" src="app.js"></script>
+     <title>Tic Tac Toe </title>
+</head>
+<body>
+<div id="firstlayer">
+    <h1 id="title"> Tic Tac Toe </h1>
+    <div id="player-names"> Enter Player's Names</div><br><br>
+    <div>Player X: <input id="player1" class="player"></div>
+    <div>Player O: <input id="player2"class="player"></div> <br>
+    <button id="start-btn" class="hide"> Start  </button>
+</div>
+
+<div id="secondlayer" class="hide">
+  <div id="displayplayerX"></div> <br>
+  <div id="displayplayerY"></div> <br>
+
+  <p id="winnermsgdisplay" class="hide"> The Winner is: <span id="actualwinnername"></span> </p>
+
+
+  <div id="div-container">
+    <div class="grid-item" id="sq1"></div>
+    <div class="grid-item" id="sq2"></div>
+    <div class="grid-item" id="sq3"></div>
+    <div class="grid-item" id="sq4"></div>
+    <div class="grid-item" id="sq5"></div>
+    <div class="grid-item" id="sq6"></div>
+    <div class="grid-item" id="sq7"></div>
+    <div class="grid-item" id="sq8"></div>
+    <div class="grid-item" id="sq9"></div>
+  </div>
+</div>
+    
+</body>
+</html>

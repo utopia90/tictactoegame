@@ -1,0 +1,125 @@
+html{
+text-align: center;
+align-items: center;
+background-image: url(https://www.solidbackgrounds.com/images/1600x900/1600x900-light-salmon-pink-solid-color-background.jpg);
+
+}
+
+#div-container {
+    display: grid;
+    grid-template-columns: repeat(3, 0fr);
+    margin-left: 510px;
+    margin-top: 40px;
+  
+}
+  
+.grid-item {
+border:  3px solid black;
+height: 200px;
+width: 200px;
+font-size: 140px;
+font-family: 'Permanent Marker';
+color:khaki;
+
+}
+
+.hide {
+    display:none;
+}
+
+.yourTurn {
+  border: inset black;
+  background-color: khaki;
+}
+
+h1 {
+  font-family:'Bungee Shade';
+  font-size: 100px;
+  font-weight: 200px;
+  color: black;
+}
+
+#firstlayer {
+  font-size: 30px;
+  font-family: 'Delius Unicase';
+}
+
+.player {
+
+height: 50px;
+width: 300px;
+font-size: 40px;
+font-family: 'Delius Unicase';
+border-radius: 8px;
+border:2px solid black;
+margin-bottom: 5px;
+}
+
+#start-btn {
+  height: 80px;
+  width:200px;
+  margin-top: -60px;
+  border-radius: 8px;
+  font-size: 30px;
+  font-family: 'Delius Unicase';
+  border:2px solid black;
+  background-color: khaki;
+
+}
+
+#displayplayerX, #displayplayerY{
+  height: 50px;
+  font-size: 40px;
+  font-family: 'Delius Unicase';
+
+}
+
+#winnermsgdisplay {
+  height: 50px;
+  font-size: 20px;
+  font-family: 'Delius Unicase';
+  font-style: bold;
+}
+#actualwinnername{
+  height: 50px;
+  font-size: 60px;
+  font-family: 'Delius Unicase';
+  color: khaki;
+
+}
+
+#sq1 {
+  border-top: hidden;
+  border-left: hidden;
+}
+
+#sq2 {
+  border-top: hidden;
+}
+
+#sq3 {
+  border-right: hidden;
+  border-top: hidden;
+}
+
+#sq4 {
+  border-left: hidden;
+}
+
+#sq6 {
+  border-right: hidden;
+}
+
+#sq7{
+  border-left: hidden;
+  border-bottom: hidden;
+}
+
+#sq8{
+  border-bottom: hidden;
+}
+
+#sq9 {
+  border-bottom: hidden;
+  border-right: hidden;
+}
